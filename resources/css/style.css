@@ -1,0 +1,141 @@
+* {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+header {
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  padding-left: 10px;
+  padding-right: 50px;
+  height: 69px;
+  width: 100%;
+  min-width: 550px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+}
+
+img.logo {
+  height: 50px;
+}
+
+nav a {
+  padding: 0 30px
+}
+
+div.content {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 69px;
+  width: 100%;
+}
+
+section#mission {
+  height: 700px;
+  min-width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+div.float {
+  width: 100%;
+}
+
+section#featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+div.teas {
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  align-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.teabox {
+  margin: 15px;
+}
+
+div.teabox img {
+  height: 200px;
+  width: 300px;
+}
+
+div.teabox h4 {
+  margin: 10px;
+}
+
+section#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+div.headinglocs {
+  background: none;
+}
+
+div.headinglocs h2 {
+  background: none;
+}
+
+div.boxeslocs {
+  display: flex;
+  justify-content: center;
+  background: none;
+}
+
+div.boxlocs {
+  width: 300px;
+  line-height: 2.5;
+  padding: 10px 0;
+  margin: 0 40px;
+  opacity: 1;
+}
+
+div.boxlocs h3 {
+  margin: 0;
+}
+
+section.address {
+  height: 200px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+footer {
+  margin: 75px 0 0 20px;
+  width: 100%;
+  text-align: left;
+}
